@@ -810,7 +810,7 @@ case "$DEVICE" in
             "$@"
         ;;
         
-        "enchilada")
+        "enchilada"|"fajita")
         sed -i \
             -e 's block/bootdevice/by-name/bluetooth sde5 ' \
             -e 's block/bootdevice/by-name/boot sde11 ' \
